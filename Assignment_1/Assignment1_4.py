@@ -1,6 +1,6 @@
 # Shows a function that prints "Marvellous" 5 times
 
-def DiplayPattern():
+def DisplayPattern():
     for i in range(5):
         print("Marvellous")
 
