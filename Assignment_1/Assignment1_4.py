@@ -1,11 +1,11 @@
-# Write a program which display 5 times Marvellous on screen.
+# Shows a function that prints "Marvellous" 5 times
 
-# Output :    Marvellous
-#             Marvellous
-#             Marvellous
-#             Marvellous
-#             Marvellous
+def DiplayPattern():
+    for i in range(5):
+        print("Marvellous")
 
-string = "Marvellous"
-for n in range(5):
-    print(string)
+def main():
+    DisplayPattern()
+
+if __name__ == "__main__":
+    main()

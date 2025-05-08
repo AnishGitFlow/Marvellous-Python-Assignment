@@ -1,10 +1,17 @@
-# Write a program which contains one function that accept one number from user and returns true if number is divisible by 5 otherwise return false.
+# Has a function that returns True if a number is divisible by 5
 
-# Input : 8     Output : False
-# Input : 25     Output : True
-
-def divisible(number):
+def CheckDivisible(number):
     return number % 5 == 0
 
-print(divisible(8))  
-print(divisible(25))
+def main():
+    result1 = CheckDivisible(8)
+    result2 = CheckDivisible(25)
+
+    print(f"Input: 8")
+    print(f"Output: {result1}")
+
+    print(f"Input: 25")
+    print(f"Output: {result2}")
+
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,16 @@
-# Write a program which display first 10 even numbers on screen.
+# Contains logic to display the first 10 even numbers
 
-# Output : 2    4   6   8   10  12  14  16  18  20
+def DisplayEvenNumbers():
+    count = 0
+    number = 2
 
-for i in range(2,21,2):
-    print(i)
+    while count < 10:
+        print(number)
+        number = number + 2
+        count = count + 1
+
+def main():
+    DisplayEvenNumbers()
+
+if __name__ == "__main__":
+    main()

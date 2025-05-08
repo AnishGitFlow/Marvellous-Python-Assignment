@@ -1,8 +1,14 @@
-# Write a program which accept name from user and display length of its name.
+# Has a function to display the length of a given name
 
-# Input : Marevllous    Output : 10
+def DisplayLength(string):
+    length = len(string)
+    return length
 
-print("Enter your name : ")
-name = input()
+def main():
+    name = "Marvellous"
+    length = DisplayLength(name)
+    print(f"Input: {name}")
+    print(f"Output: {length}")
 
-print(len(name))
+if __name__ == "__main__":
+    main()

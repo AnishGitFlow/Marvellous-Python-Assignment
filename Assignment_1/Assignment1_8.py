@@ -1,9 +1,10 @@
-# Write a program which accepts number from user and print that number of "*" on screen.
+# Implements a function to print "*" as many times as specified
 
-# Input : 5   Output : * * * * *
+def PrintPattern(count):
+    print("*" * count)
 
-print("Enter some number ")
-n = int(input())
+def main():
+    PrintPattern(5)
 
-for i in range(n):
-    print("*")
+if __name__ == "__main__":
+    main()

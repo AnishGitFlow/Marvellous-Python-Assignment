@@ -1,15 +1,17 @@
-# Write a python program which accept number from user and check whether that number is positive or negative or zero.
+# Includes a function to check if a number is positive, negative, or zero
 
-# Input : 11    Output : Positive Number
-# Input : -8    Output : Negative Number
-# Input : 0    Output : Zero
+def CheckNumber(number):
+    if number > 0:
+        print("Positive Number")
+    elif number < 0:
+        print("Negative number")
+    else:
+        print("Zero")
 
-print("Enter your number : ")
-number = int(input())
+def main():
+    CheckNumber(11)
+    CheckNumber(-8)
+    CheckNumber(0)
 
-if number > 0:
-    print("Positive Number")
-elif number < 0:
-    print("Negative number")
-else:
-    print("Zero")
+if __name__ == "__main__":
+    main()
